@@ -34,8 +34,4 @@ You can view the live version here:
 
 https://yourusername.github.io/portfolio-website
 
-## How to Run Locally
 
-To run the website locally:
-
-1. Clone the repository:
