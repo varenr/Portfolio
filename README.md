@@ -32,6 +32,6 @@ It includes sections for:
 
 You can view the live version here:
 
-https://yourusername.github.io/portfolio-website
+https://varenr.github.io/Portfolio
 
 
