@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+    <!--NAVBAR--> 
+    <nav>
+      <div class="left">
+        <a href="/">Varen Rajoo</a>
+      </div>  
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener
+        no-referrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+      </a>
+
+
+      <a href="http://linkedin.com" target="_blank" rel="noopener
+        no-referrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+      </a>
+
+
+       <a href="mailto:varen.rajoo06@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+      </a>
+
+
+    </div>
+</nav>
+
+    <main> 
+        <!-- SECTION 1: Hero-->
+        <section class="hero-section">
+          <div class="text">
+            <h2>Hi, I'm Varen 👋</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum asperiores soluta. 
+              Omnis officia suscipit magnam id, cumque reprehenderit ad provident eos odio quisquam consectetur 
+              amet dolorem vitae ea dolore iusto deleniti aut deserunt mollitia labore sunt minima! 
+              Ducimus sunt facilis dolorem in voluptatibus vero iste distinctio nam? Natus, maxime.</p>
+
+              <div class="links">
+                <a href="#skills">
+                  <i class="fa-solid fa-code"></i>
+                  <span>Skills</span>
+                </a>
+
+                 <a href="#projects">
+                  <i class="fa-solid fa-brain"></i>
+                  <span>Projects</span>
+                </a>
+
+                 <a href="#contact">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Contact</span>
+                </a>
+              </div>
+          </div>
+
+          <div class="headshot">
+            <img src="images/varen's head.webp" alt="varen rajoo headshot"> <!-- add ur portrait here (make sure its webp)-->
+          </div>
+        </section>
+        <!-- SECTION 2: Skills-->
+        <section id="skills" class="skills-section">
+          <h2>Skills</h2>
+          <div class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Magnam nam consequuntur rerum minima iusto, doloremque, recusandae 
+            cumque nihil minus quam consequatur porro ut earum mollitia, 
+            tempora molestias veniam voluptatibus quo.
+            </div>
+            <div class="cells">
+              <div class="cell">
+                <img src="images/html-logo.webp" alt="html logo">
+                <span>HTML</span>
+              </div>
+
+              <div class="cell">
+                <img src="images/css-logo.webp" alt="css logo">
+                <span>CSS</span>
+              </div>
+
+              <div class="cell">
+                <img src="images/sql-logo1-removebg-preview__1_-removebg-preview.webp" alt="sql logo">
+                <span>SQL</span>
+              </div>
+
+              <div class="cell">
+                <img src="images/java-logo.webp" alt="java logo">
+                <span>Java</span>
+              </div>
+
+              <div class="cell">
+                <img src="images/C_Logo (1).webp" alt="C logo">
+                <span>C</span>
+              </div>
+
+        </section>
+
+       <!-- SECTION 3: Projects-->
+<section id="projects" class="projects-section">
+  <h2>Projects 💻</h2>
+
+  <div class="text">
+    Projects I built while juggling engineering labs, deadlines, and way too much coffee.
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Featured Project -->
+    <article class="project-card featured">
+
+      <div class="project-image">
+        <img src="images/gradify-preview.webp" alt="Gradify project preview">
+      </div>
+
+      <div class="project-content">
+        <div class="project-top">
+          <h3>Gradify</h3>
+          <span class="pill">Featured</span>
+        </div>
+
+        <p>
+          Academic tracker that helps students stay on top of courses, grades, and deadlines.
+        </p>
+
+        <div class="stack">
+          <span>React</span><span>Tailwind</span><span>Node</span>
+        </div>
+
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener no-referrer">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Live</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener no-referrer">
+            <i class="fa-brands fa-github"></i><span>Code</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card">
+
+      <div class="project-image">
+        <img src="images/dbms-preview.webp" alt="Restaurant DBMS project preview">
+      </div>
+
+      <div class="project-content">
+        <div class="project-top">
+          <h3>Restaurant DBMS</h3>
+          <span class="pill pill-soft">Database</span>
+        </div>
+
+        <p>
+          Reservation + ordering system designed with normalization, constraints, and practical SQL queries.
+        </p>
+
+        <div class="stack">
+          <span>Oracle SQL</span><span>BCNF</span><span>Java</span>
+        </div>
+
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener no-referrer">
+            <i class="fa-solid fa-file-lines"></i><span>Details</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-card">
+
+      <div class="project-image">
+        <img src="images/portfolio-preview.webp" alt="Portfolio website preview">
+      </div>
+
+      <div class="project-content">
+        <div class="project-top">
+          <h3>Portfolio Website</h3>
+          <span class="pill pill-soft">Frontend</span>
+        </div>
+
+        <p>
+          Responsive personal website built with semantic HTML and a consistent design system.
+        </p>
+
+        <div class="stack">
+          <span>HTML</span><span>CSS</span><span>Responsive</span>
+        </div>
+
+        <div class="project-links">
+          <a href="#" target="_blank" rel="noopener no-referrer">
+            <i class="fa-brands fa-github"></i><span>Code</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+        <!-- SECTION 4: Contact-->
+        <section id="contact" class="contact-section">
+          <h2>Contact</h2>
+
+          <div class="group">
+            <div class="text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Culpa, architecto. Tenetur harum facilis iure blanditiis adipisci veritatis.
+               Nisi deserunt quis minus ratione reiciendis incidunt iusto, 
+               id quisquam quia aspernatur officia nam, harum, quidem unde sed 
+               culpa aut fugiat et aliquid blanditiis laboriosam. 
+               Magni perferendis temporibus saepe sunt explicabo labore delectus.
+            </div>
+
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name">
+
+              <label for="email">Email</label>
+              <input type="email" id="email">
+
+              <label for="message">Message</label>
+              <textarea id="message" cols="30" rows="10"></textarea>
+
+              <button type="submit">Send Message</button>
+              
+            </form>
+          </div>
+
+
+
+
+
+
+
+          
+        </section>
+    </main>
+</body>
+</html>
