@@ -1,309 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varen Rajoo | Portfolio</title>
 
-    <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-    
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
-    <!--NAVBAR--> 
-    <nav>
-      <div class="left">
-        <a href="/">Varen Rajoo</a>
-      </div>  
-
-      <div class="right">
-        <a href="http://github.com" target="_blank" rel="noopener
-        no-referrer">
-            <i class="fa-brands fa-github"></i>
-            <span>Github</span>
-      </a>
-
-
-      <a href="http://linkedin.com" target="_blank" rel="noopener
-        no-referrer">
-            <i class="fa-brands fa-linkedin"></i>
-            <span>Linkedin</span>
-      </a>
-
-
-       <a href="mailto:varen.rajoo06@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
-            <span>Email</span>
-      </a>
-
-
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="#hero">Varen Rajoo</a>
     </div>
-</nav>
 
-    <main> 
-        <!-- SECTION 1: Hero-->
-        <section class="hero-section">
-          <div class="text">
-            <h2>Hi, I'm Varen 👋</h2>
-            <p>
-I’m a third-year Computer Engineering student at Toronto Metropolitan University with a focus on software development. I enjoy building practical, user-focused applications and solving real-world problems through code. My experience ranges from web development and databases to embedded systems and low-level programming, and I’m always looking for opportunities to learn and create impactful projects.
-</p>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
 
+    <div class="nav-socials">
+      <a href="https://github.com/varenr" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/varenrajoo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </nav>
+</header>
 
-              <div class="links">
-                <a href="#skills">
-                  <i class="fa-solid fa-code"></i>
-                  <span>Skills</span>
-                </a>
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+  <div class="hero-text">
+    <p class="hero-kicker">Computer Engineering Student • Software Engineering</p>
+    <h1>Hi, I’m Varen 👋</h1>
+    <p class="hero-description">
+      I’m a third-year Software Engineering student at Toronto Metropolitan University focused on
+      software development, databases, and systems design. I enjoy building practical software
+      that is clean, useful, and grounded in strong fundamentals.
+    </p>
 
-                 <a href="#projects">
-                  <i class="fa-solid fa-brain"></i>
-                  <span>Projects</span>
-                </a>
+    <div class="hero-buttons">
+      <a href="#projects" class="primary-btn">See My Work</a>
+      <a href="#about" class="secondary-btn">Learn More</a>
+    </div>
 
-                 <a href="#contact">
-                  <i class="fa-solid fa-envelope"></i>
-                  <span>Contact</span>
-                </a>
-              </div>
-          </div>
-
-          <div class="headshot">
-            <img src="images/varen's head.webp" alt="varen rajoo headshot"> <!-- add ur portrait here (make sure its webp)-->
-          </div>
-        </section>
-        <!-- SECTION 2: Skills-->
-        <section id="skills" class="skills-section">
-          <h2>Skills</h2>
-          <div class="text">
-            <div class="text">
-  I work across multiple areas of software engineering, including full-stack web development, databases, and embedded systems. My experience includes building responsive web applications, designing normalized databases, and writing low-level firmware for microcontrollers. I enjoy solving technical problems with clean, structured, and maintainable code.
-</div>
-            </div>
-            <div class="cells">
-              <div class="cell">
-                <img src="images/html-logo.webp" alt="html logo">
-                <span>HTML</span>
-              </div>
-
-              <div class="cell">
-                <img src="images/css-logo.webp" alt="css logo">
-                <span>CSS</span>
-              </div>
-
-              <div class="cell">
-                <img src="images/sql-logo1-removebg-preview__1_-removebg-preview.webp" alt="sql logo">
-                <span>SQL</span>
-              </div>
-
-              <div class="cell">
-                <img src="images/java-logo.webp" alt="java logo">
-                <span>Java</span>
-              </div>
-
-              <div class="cell">
-                <img src="images/C_Logo (1).webp" alt="C logo">
-                <span>C</span>
-              </div>
-
-        </section>
-
-       <!-- SECTION 3: Projects-->
-<section id="projects" class="projects-section">
-  <h2>Things I’ve Built 💻</h2>
-
-  <div class="text">
-    A mix of full-stack apps, database systems, and embedded projects — built through coursework, teams, and personal work.
+    <div class="hero-links">
+      <a href="https://github.com/varenr" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+      </a>
+    </div>
   </div>
 
-  <div class="projects-grid">
+  <div class="hero-image">
+            <img src="images/varen's head.webp" alt="varen rajoo headshot"> <!-- add ur portrait here (make sure its webp)-->
+  </div>
+</section>
 
-    <!-- Gradify -->
-    <article class="project-card featured">
-      <div class="project-image">
-        <img src="images/gradify-preview.webp" alt="Gradify preview">
+    <!-- ABOUT + EXPERIENCE -->
+    <section id="about" class="about-section">
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>Who I Am</h2>
       </div>
 
-      <div class="project-content">
-        <div class="project-top">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="about-card">
+            <h3>About Me</h3>
+            <p>
+              I’m a third-year Computer Engineering student at Toronto Metropolitan University with experience
+              building full-stack applications, designing databases, and working with low-level systems.
+              I like building software that is practical, maintainable, and easy to use.
+            </p>
+            <p>
+              My projects range from secure academic platforms and database systems to Java applications,
+              ticketing systems, and embedded microcontroller work. I’m especially interested in backend
+              development, software engineering, and systems-oriented problem solving.
+            </p>
+          </div>
+
+          <div class="about-card mini-card-group">
+            <div class="mini-card">
+              <span class="mini-number">4+</span>
+              <span class="mini-label">Major Projects</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-number">3rd</span>
+              <span class="mini-label">Year Student</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <h3 class="timeline-title">Experience</h3>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <h4>Director of Communications</h4>
+                <p class="timeline-subtitle">Biomedical Engineering Society</p>
+                <p class="timeline-meta">Toronto • 2025 – Present</p>
+                <p class="timeline-text">
+                  Support student outreach and communications by helping create organized, engaging content
+                  and improving visibility for events, initiatives, and chapter activities.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <h4>Box Office Representative</h4>
+                <p class="timeline-subtitle">Mirvish Productions</p>
+                <p class="timeline-meta">Toronto • 2023 – Present</p>
+                <p class="timeline-text">
+                  Deliver customer support in a fast-paced theatre environment while handling ticketing,
+                  transactions, and patron inquiries with accuracy and professionalism.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education-section">
+      <div class="section-heading">
+        <p class="section-label">Education</p>
+        <h2>Academic Background</h2>
+      </div>
+
+      <div class="education-card">
+        <div class="education-top">
+          <div>
+            <h3>Toronto Metropolitan University</h3>
+            <p class="education-program">Computer Engineering — Software Engineering Option</p>
+          </div>
+          <span class="education-badge">In Progress</span>
+        </div>
+
+        <p class="education-text">
+          Studying software design, algorithms, databases, computer architecture, operating systems,
+          and embedded systems through hands-on labs and team-based technical projects.
+        </p>
+
+        <div class="education-tags">
+          <span>Software Design</span>
+          <span>Database Systems</span>
+          <span>Algorithms</span>
+          <span>Computer Organization</span>
+          <span>Embedded Systems</span>
+          <span>Operating Systems</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="section-heading">
+        <p class="section-label">Skills</p>
+        <h2>Skills & Technologies</h2>
+        <p class="section-description">
+          Technologies and tools I’ve used across software, database, and systems-focused projects.
+        </p>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skills-card">
+          <h3>Programming Languages</h3>
+
+          <div class="skill-row">
+            <span>Java</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+
+          <div class="skill-row">
+            <span>Python</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+
+          <div class="skill-row">
+            <span>SQL</span>
+            <span>88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 88%;"></div></div>
+
+          <div class="skill-row">
+            <span>JavaScript</span>
+            <span>78%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 78%;"></div></div>
+
+          <div class="skill-row">
+            <span>C / C++</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+
+          <div class="skill-row">
+            <span>Assembly (HCS12 / MIPS)</span>
+            <span>70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+        </div>
+
+        <div class="skills-card">
+          <h3>Frameworks & Tools</h3>
+
+          <div class="skill-row">
+            <span>React + TypeScript</span>
+            <span>82%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 82%;"></div></div>
+
+          <div class="skill-row">
+            <span>Tailwind CSS</span>
+            <span>84%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 84%;"></div></div>
+
+          <div class="skill-row">
+            <span>ASP.NET Core</span>
+            <span>78%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 78%;"></div></div>
+
+          <div class="skill-row">
+            <span>JDBC / JavaFX</span>
+            <span>83%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 83%;"></div></div>
+
+          <div class="skill-row">
+            <span>Git & GitHub</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+
+          <div class="skill-row">
+            <span>MySQL / SQL Server / Oracle</span>
+            <span>86%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" style="width: 86%;"></div></div>
+        </div>
+
+        <div class="skills-card">
+          <h3>Areas I Work In</h3>
+
+          <div class="areas-grid">
+            <span>Full-Stack Development</span>
+            <span>REST APIs</span>
+            <span>Database Design</span>
+            <span>Normalization</span>
+            <span>Software Design Patterns</span>
+            <span>Systems Programming</span>
+            <span>Embedded Systems</span>
+            <span>Responsive UI</span>
+            <span>Object-Oriented Design</span>
+            <span>Backend Development</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+  <div class="section-heading">
+    <p class="section-label">Selected Work</p>
+    <h2>Projects I’m Building</h2>
+    <p class="section-description">
+      A mix of full-stack, database, and systems projects that reflect how I approach software: practical, structured, and user-focused.
+    </p>
+  </div>
+
+  <div class="projects-list">
+
+    <article class="project-item featured-project">
+      <div class="project-topline">
+        <span class="project-category">Featured Project</span>
+        <span class="project-percent">85%</span>
+      </div>
+
+      <div class="project-header">
+        <div>
           <h3>Gradify</h3>
-          <span class="pill">Featured</span>
+          <p class="project-subtitle">Academic grade management platform</p>
         </div>
+      </div>
 
-        <p>
-          Full-stack grade management platform with GPA planning, dashboards, REST APIs, and a normalized SQL database.
-        </p>
+      <p class="project-description">
+        Full-stack academic platform built to help students track grades, organize course data,
+        and better understand GPA progress through a secure and structured workflow.
+      </p>
 
-        <div class="stack">
-          <span>React</span><span>TypeScript</span><span>Tailwind</span><span>C#</span><span>SQL Express</span>
-        </div>
+      <div class="project-progress modern-progress">
+        <div class="project-progress-fill" style="width: 85%;"></div>
+      </div>
 
-        <div class="project-links">
-          <a href="https://github.com/cheran2005/Gradify" target="_blank" rel="noopener no-referrer">
-            <i class="fa-brands fa-github"></i><span>Code</span>
-          </a>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>Tailwind</span>
+          <span>C#</span>
+          <span>ASP.NET Core</span>
+          <span>SQL Server</span>
+          <span>Python</span>
         </div>
       </div>
     </article>
 
-    <!-- Personal Portfolio -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="images/portfolio-preview.webp" alt="Portfolio website preview">
+    <article class="project-item">
+      <div class="project-topline">
+        <span class="project-category">In Progress</span>
+        <span class="project-percent">80%</span>
       </div>
 
-      <div class="project-content">
-        <div class="project-top">
-          <h3>Personal Portfolio Website</h3>
-          <span class="pill pill-soft">Frontend</span>
+      <div class="project-header">
+        <div>
+          <h3>Ticketly</h3>
+          <p class="project-subtitle">Theatre ticketing web application</p>
         </div>
+      </div>
 
-        <p>
-          Responsive website built with semantic HTML and modular CSS, designed mobile-first with flexbox and media queries.
-        </p>
+      <p class="project-description">
+        Java Servlet-based ticketing platform with booking workflows, authentication, database integration,
+        and a growing microservices direction for theatre operations.
+      </p>
 
-        <div class="stack">
-          <span>HTML</span><span>CSS</span><span>Responsive</span>
-        </div>
+      <div class="project-progress modern-progress">
+        <div class="project-progress-fill" style="width: 80%;"></div>
+      </div>
 
-        <div class="project-links">
-          <a href="https://github.com/varenr/Portfolio" target="_blank" rel="noopener no-referrer">
-            <i class="fa-brands fa-github"></i><span>Code</span>
-          </a>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span>Java</span>
+          <span>JSP</span>
+          <span>Servlets</span>
+          <span>JDBC</span>
+          <span>MySQL</span>
+          <span>REST APIs</span>
+          <span>JWT</span>
         </div>
       </div>
     </article>
 
-    <!-- Restaurant DBMS -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="images/restaurant-dbms-preview.webp" alt="Restaurant DBMS preview">
+    <article class="project-item">
+      <div class="project-topline">
+        <span class="project-category">Completed</span>
+        <span class="project-percent">100%</span>
       </div>
 
-      <div class="project-content">
-        <div class="project-top">
+      <div class="project-header">
+        <div>
           <h3>Restaurant Database Management System</h3>
-          <span class="pill pill-soft">Database</span>
+          <p class="project-subtitle">Normalized relational database project</p>
         </div>
+      </div>
 
-        <p>
-          Normalized restaurant DB designed from 1NF to BCNF with 15+ tables, constraints, and a Java (JDBC) backend for live interaction.
-        </p>
+      <p class="project-description">
+        Designed and implemented a structured restaurant database with normalization, relational integrity,
+        and a Java JDBC interface for interacting with operational data.
+      </p>
 
-        <div class="stack">
-          <span>SQL</span><span>Java</span><span>JDBC</span>
-        </div>
+      <div class="project-progress modern-progress">
+        <div class="project-progress-fill" style="width: 100%;"></div>
+      </div>
 
-        <div class="project-links">
-          <a href="https://github.com/amarq04/cps510" target="_blank" rel="noopener no-referrer">
-            <i class="fa-brands fa-github"></i><span>Code</span>
-          </a>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span>SQL</span>
+          <span>Java</span>
+          <span>JDBC</span>
+          <span>Oracle</span>
+          <span>Database Design</span>
         </div>
       </div>
     </article>
 
-    <!-- HCS12 & EEBot -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="images/eebot-preview.webp" alt="HCS12 EEBot project preview">
+    <article class="project-item">
+      <div class="project-topline">
+        <span class="project-category">Completed</span>
+        <span class="project-percent">100%</span>
       </div>
 
-      <div class="project-content">
-        <div class="project-top">
-          <h3>HCS12 Microcontroller & EEBot Navigation</h3>
-          <span class="pill pill-soft">Embedded</span>
-        </div>
-
-        <p>
-          Assembly firmware for the HCS12 with register-level I/O, LCD/LED/keypad integration, and obstacle-avoidance navigation logic.
-        </p>
-
-        <div class="stack">
-          <span>HCS12</span><span>Assembly</span><span>Embedded</span>
-        </div>
-
-        <div class="project-links">
-          <span style="font-size: 14px; color: #666;">Code available on request</span>
-        </div>
-      </div>
-    </article>
-
-    <!-- Bookstore System -->
-    <article class="project-card">
-      <div class="project-image">
-        <img src="images/bookstore-preview.webp" alt="Bookstore Management System preview">
-      </div>
-
-      <div class="project-content">
-        <div class="project-top">
+      <div class="project-header">
+        <div>
           <h3>Bookstore Management System</h3>
-          <span class="pill pill-soft">Java App</span>
+          <p class="project-subtitle">Desktop application using JavaFX</p>
         </div>
+      </div>
 
-        <p>
-          Java GUI application with login, inventory, and loyalty workflows; implemented OOP design and State Pattern.
-        </p>
+      <p class="project-description">
+        Built a Java desktop application supporting bookstore workflows with object-oriented design,
+        user interaction logic, and State pattern implementation.
+      </p>
 
-        <div class="stack">
-          <span>Java</span><span>JavaFX</span><span>OOP</span><span>Design Patterns</span>
+      <div class="project-progress modern-progress">
+        <div class="project-progress-fill" style="width: 100%;"></div>
+      </div>
+
+      <div class="project-footer">
+        <div class="project-stack">
+          <span>Java</span>
+          <span>JavaFX</span>
+          <span>OOP</span>
+          <span>State Pattern</span>
         </div>
+      </div>
+    </article>
 
-        <div class="project-links">
-          <span style="font-size: 14px; color: #666;">Team project – code available on request</span>
+    <article class="project-item">
+      <div class="project-topline">
+        <span class="project-category">Completed</span>
+        <span class="project-percent">100%</span>
+      </div>
+
+      <div class="project-header">
+        <div>
+          <h3>HCS12 Microcontroller & EEBot Navigation</h3>
+          <p class="project-subtitle">Embedded systems and low-level programming</p>
+        </div>
+      </div>
+
+      <p class="project-description">
+        Developed low-level firmware and control logic for HCS12-based labs involving memory-mapped I/O,
+        LCD/keypad interaction, and autonomous robot movement.
+      </p>
+
+      <div class="project-progress modern-progress">
+        <div class="project-progress-fill" style="width: 100%;"></div>
+      </div>
+
+      <div class="project-footer">
+        <div class="project-stack">
+          <span>HCS12</span>
+          <span>Assembly</span>
+          <span>Embedded Systems</span>
+          <span>Microcontrollers</span>
         </div>
       </div>
     </article>
 
   </div>
 </section>
+<section id="contact" class="contact-section">
+  <div class="section-heading">
+    <p class="section-label">Contact</p>
+    <h2>Let’s Build Something Meaningful</h2>
+    <p class="section-description">
+      I’m always open to software engineering internships, technical collaborations, and opportunities to work on thoughtful, high-impact products.
+    </p>
+  </div>
 
+  <div class="contact-layout">
+    <div class="contact-intro-card">
+      <span class="contact-badge">Open to Opportunities</span>
+      <h3>Let’s Connect</h3>
+      <p>
+        I’m a Computer Engineering student at Toronto Metropolitan University with interests in software engineering,
+        backend development, databases, and systems-oriented work. Whether it’s an internship opportunity, a project,
+        or a technical conversation, I’d be glad to connect.
+      </p>
 
+      <div class="contact-interest-tags">
+        <span>Software Engineering Internships</span>
+        <span>Backend Development</span>
+        <span>Full-Stack Projects</span>
+        <span>Systems & Databases</span>
+      </div>
+    </div>
 
-        <!-- SECTION 4: Contact-->
-        <section id="contact" class="contact-section">
-          <h2>Contact</h2>
+    <div class="contact-details">
+      <a href="mailto:varen.rajoo06@gmail.com" class="contact-card">
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="contact-info">
+          <p class="contact-label">Email</p>
+          <p class="contact-value">varen.rajoo06@gmail.com</p>
+        </div>
+      </a>
 
-          <div class="group">
-            <div class="text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-              Culpa, architecto. Tenetur harum facilis iure blanditiis adipisci veritatis.
-               Nisi deserunt quis minus ratione reiciendis incidunt iusto, 
-               id quisquam quia aspernatur officia nam, harum, quidem unde sed 
-               culpa aut fugiat et aliquid blanditiis laboriosam. 
-               Magni perferendis temporibus saepe sunt explicabo labore delectus.
-            </div>
+      <div class="contact-card">
+        <div class="contact-icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="contact-info">
+          <p class="contact-label">Location</p>
+          <p class="contact-value">Bowmanville / Toronto, Ontario</p>
+        </div>
+      </div>
 
-            <form>
-              <label for="name">Name</label>
-              <input type="text" id="name">
+      <a href="https://github.com/varenr" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <div class="contact-icon">
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="contact-info">
+          <p class="contact-label">GitHub</p>
+          <p class="contact-value">github.com/varenr</p>
+        </div>
+      </a>
 
-              <label for="email">Email</label>
-              <input type="email" id="email">
-
-              <label for="message">Message</label>
-              <textarea id="message" cols="30" rows="10"></textarea>
-
-              <button type="submit">Send Message</button>
-              
-            </form>
-          </div>
-
-
-
-
-
-
-
-          
-        </section>
-    </main>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-card">
+        <div class="contact-icon">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="contact-info">
+          <p class="contact-label">LinkedIn</p>
+          <p class="contact-value">Connect with me professionally</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+  </main>
 </body>
 </html>
